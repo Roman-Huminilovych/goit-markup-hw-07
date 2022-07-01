@@ -1,18 +1,18 @@
-/* ========FILTTER PORTFOLIO======= */
-.filter-container {
+.section-portfolio {
+  padding: 94px 0;
+}
+.section-filter {
   display: flex;
   justify-content: center;
   max-width: 1170px;
   margin-bottom: 50px;
 }
-.section-portfolio {
-  padding: 94px 0;
-}
+
 .filter-element {
   margin-right: 8px;
 }
 
-.btn-name {
+.btn-element__filter {
   font-family: var(--primary-font-family);
   @include font($fw: 500, $fs: 16px, $lh: 1.62, $ls: 0.03em);
   text-align: center;
@@ -33,8 +33,6 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-
-/* ========PORTFOLIO======= */
 
 .portfolio-container {
   display: flex;
@@ -70,7 +68,7 @@
     opacity: 1;
   }
 }
-.overlay-wrapper {
+.portfolio-overlay-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -104,24 +102,17 @@
   color: var(--primary-text-color-theme-light);
 }
 
-.border-card {
+.portfolio-card {
   border: 1px solid #eeeeee;
   padding: 20px 24px 20px 24px;
 }
-.subtitle-portfolio {
+.portfolio-subtitle {
   font-family: var(--primary-font-family);
   @include font($fw: 700, $fs: 18px, $lh: 2, $ls: 0.06em);
   color: var(--primary-text-color-theme-dark);
 }
-.description-portfolio {
+.portfolio-description {
   font-family: var(--primary-font-family);
   @include font($fw: 400, $fs: 16px, $lh: 1.88, $ls: 0.03em);
   color: var(--secondary-text-color-theme-dark);
-}
-
-@mixin font($fw, $fs, $lh, $ls) {
-  font-weight: $fw;
-  font-size: $fs;
-  line-height: $lh;
-  letter-spacing: $ls;
 }

@@ -1,6 +1,10 @@
 .page-header {
   border-bottom: 1px solid #ececec;
 }
+.header-flex {
+  display: flex;
+}
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -62,10 +66,6 @@
   display: flex;
   margin-left: auto;
   align-items: center;
-}
-
-.header-flex {
-  display: flex;
 }
 
 .header-icon {

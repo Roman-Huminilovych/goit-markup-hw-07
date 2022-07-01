@@ -18,18 +18,6 @@
   }
 }
 
-.subtitle {
-  @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  width: 270px;
-}
-.description {
-  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
-  color: var(--secondary-text-color-theme-dark);
-  width: 270px;
-}
-
 .thumb {
   position: relative;
 }

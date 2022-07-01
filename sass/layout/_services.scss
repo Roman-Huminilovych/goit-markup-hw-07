@@ -7,15 +7,26 @@
   justify-content: space-between;
   padding-left: 0;
 }
-.item {
+.services-item {
   margin-right: 30px;
+
   &:last-child {
     margin-right: 0;
   }
-
   &:nth-last-child(-n + 4) {
     margin-bottom: 0;
   }
+}
+.subtitle {
+  @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  width: 270px;
+}
+.description {
+  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
+  color: var(--secondary-text-color-theme-dark);
+  width: 270px;
 }
 
 .services-icon-bg {

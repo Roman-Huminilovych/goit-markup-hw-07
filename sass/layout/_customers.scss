@@ -7,6 +7,10 @@
   justify-content: space-between;
   padding-left: 0;
 }
+.customers-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .customers-link {
   width: 170px;
   height: 92px;
@@ -22,8 +26,4 @@
     fill: var(--accent-color);
     border-color: var(--accent-color);
   }
-}
-
-.customers-item:not(:last-child) {
-  margin-right: 30px;
 }
