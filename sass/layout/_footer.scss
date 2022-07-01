@@ -18,20 +18,15 @@
   margin-right: 70px;
 }
 .contact-map {
-  font-weight: 400;
+  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--primary-text-color-theme-light);
 }
 .contact-addres {
-  font-weight: 400;
+  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color-theme-light);
   margin-right: 70px;
   transition: var(--animation);
@@ -44,10 +39,8 @@
 /* ========footer-soc-link======= */
 
 .third-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
+
   text-transform: uppercase;
   margin: 0 0 20px;
   color: #fff;
@@ -102,12 +95,8 @@
 .footer-submit-text {
   padding: 20px 0px 10px 0px;
   margin-bottom: 20px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14px;
+  @include font($fw: 700, $fs: 14px, $lh: 1.14);
   text-transform: uppercase;
-
   color: var(--primary-text-color-theme-light);
 }
 
@@ -150,11 +139,7 @@
   background-color: var(--accent-color);
   color: var(--primary-text-color-theme-light);
   transition: var(--animation);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include font($fw: 700, $fs: 16px, $lh: 1.87, $ls: 0.06em);
   cursor: pointer;
 
   &:hover,

@@ -12,17 +12,10 @@
   margin-top: 0;
 }
 
-@mixin font($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em) {
-  font-weight: $fw;
-  font-size: $fs;
-  line-height: $lh;
-  letter-spacing: $ls;
-}
-
 .menu-link {
   position: relative;
   display: block;
-  @include font;
+  @include font($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
 
   color: #212121;
   padding-top: 32px;
@@ -83,7 +76,7 @@
 }
 
 .contact-mail {
-  @include font;
+  @include font($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
 
   color: #757575;
   transition: var(--animation);
@@ -96,7 +89,7 @@
   }
 }
 .contact-number-phone {
-  @include font;
+  @include font($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
 
   color: #757575;
   transition: var(--animation);
