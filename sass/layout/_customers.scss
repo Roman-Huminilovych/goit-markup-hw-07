@@ -1,17 +1,17 @@
-.section-customers {
+.customers {
   padding: 94px;
 }
 
-.customers-list {
+.customers__list {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
 }
-.customers-item:not(:last-child) {
+.customers__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.customers-link {
+.customers__link {
   width: 170px;
   height: 92px;
   display: flex;
