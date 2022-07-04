@@ -11,7 +11,7 @@
   padding-left: 0;
 }
 
-.title-description {
+.title__description {
   margin-bottom: 50px;
 }
 .about-element {
@@ -36,7 +36,7 @@
   padding-bottom: 30px;
 }
 
-.title-description {
+.title__description {
   @include font($fw: 700, $fs: 36px, $lh: 1.16, $ls: 0.03em);
   text-align: center;
 }
